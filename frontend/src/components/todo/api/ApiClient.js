@@ -2,6 +2,6 @@ import axios from 'axios'
 
 export const apiClient = axios.create(
     {
-        baseURL: process.env.REACT_APP_API_URL || 'http://localhost:8080'
+        baseURL: 'https://todo-backend-final-1on9.onrender.com'
     }
 );
